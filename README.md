@@ -11,7 +11,7 @@
   <a href="https://github.com/f1db/f1db"><img src="https://img.shields.io/badge/data-F1DB%20%C2%B7%20CC%20BY%204.0-2ea44f" alt="Data: F1DB, CC BY 4.0"></a>
 </p>
 
-**BA780 Introduction to Data Analytics · Boston University Questrom School of Business · Team B05**
+**BA780-Introduction to Data Analytics · Boston University Questrom School of Business · Team B05**
 
 Did the 2021 cost cap help more Formula 1 teams compete near the front? We compared constructor points, wins and podiums across 11 pre-cap seasons (2010–2020) and 5 post-cap seasons (2021–2025).
 
