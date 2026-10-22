@@ -1,6 +1,6 @@
 # Formula 1 Cost Cap and Competitive Balance
 
-**BA780 Applied Business Analytics | Boston University Questrom School of Business | Team B05**
+**BA780 - Introduction to Data Analytics | Boston University Questrom School of Business | Team B05**
 
 Did the 2021 cost cap help more F1 teams compete near the front? We looked at championship points, wins, and podiums from 2010–2025 to see what changed.
 
