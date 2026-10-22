@@ -17,6 +17,23 @@ Did the 2021 cost cap help more Formula 1 teams compete near the front? We compa
 
 [At a glance](#at-a-glance) · [The grid](#the-grid-in-the-cost-cap-era) · [Key findings](#key-findings) · [All 15 charts](#all-15-charts) · [Presentation](#presentation) · [Method](#how-the-analysis-works) · [Run it](#run-it-yourself) · [Future work](#future-work) · [Open source](#built-on-open-source) · [Team](#team)
 
+## How to use this
+
+**Just read it:** open the notebook on GitHub, or [run it in Colab](https://colab.research.google.com/github/ashwinpr15/BA780-F1-Cost-Cap/blob/main/B05-F1-Cost-Cap.ipynb) with no install.
+
+**Copy it to your own GitHub:**
+
+1. Click **Fork** at the top right of this page.
+2. Your copy opens under your account. It stays yours to edit.
+
+**Run it on your computer:**
+
+1. Download the code: `git clone https://github.com/ashwinpr15/BA780-F1-Cost-Cap.git`
+2. Install the libraries: `pip install -r requirements.txt`
+3. Open the notebook: `jupyter notebook B05-F1-Cost-Cap.ipynb`
+4. Choose **Run → Run All Cells**.
+
+Needs internet access, because the notebook downloads the F1 data.
 ## At a glance
 
 | Measure | 2010–2020 | 2021–2025 | What it tells us |
