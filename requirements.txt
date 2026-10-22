@@ -1,0 +1,8 @@
+# Libraries for running B05-F1-Cost-Cap.ipynb locally.
+# Verified in October 2026 with Python 3.13, pandas 3.0, NumPy 2.5, Matplotlib 3.11, SciPy 1.18 and IPython 9.17.
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+scipy>=1.11
+ipython>=8.0
+notebook>=7.0
