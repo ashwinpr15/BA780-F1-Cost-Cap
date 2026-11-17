@@ -15,25 +15,18 @@
 
 Did the 2021 cost cap help more Formula 1 teams compete near the front? We compared constructor points, wins and podiums across 11 pre-cap seasons (2010–2020) and 5 post-cap seasons (2021–2025).
 
-[At a glance](#at-a-glance) · [The grid](#the-grid-in-the-cost-cap-era) · [Key findings](#key-findings) · [All 15 charts](#all-15-charts) · [Presentation](#presentation) · [Method](#how-the-analysis-works) · [Run it](#run-it-yourself) · [Future work](#future-work) · [Open source](#built-on-open-source) · [Team](#team)
+[The result](#the-result) · [At a glance](#at-a-glance) · [The grid](#the-grid-in-the-cost-cap-era) · [Key findings](#key-findings) · [All 15 charts](#all-15-charts) · [Presentation](#presentation) · [Method](#how-the-analysis-works) · [How to use this](#how-to-use-this) · [Run it](#run-it-yourself) · [Future work](#future-work) · [Open source](#built-on-open-source) · [Team](#team)
 
-## How to use this
+## The result
 
-**Just read it:** open the notebook on GitHub, or [run it in Colab](https://colab.research.google.com/github/ashwinpr15/BA780-F1-Cost-Cap/blob/main/B05-F1-Cost-Cap.ipynb) with no install.
+**The top two teams' average points share fell 2.58 percentage points after the cap (54.72% → 52.14%), and the comparison was inconclusive (Welch t = −1.215, p = 0.245).** The cap coincided with a redistribution of success, with limited evidence of broad, lasting parity.
 
-**Copy it to your own GitHub:**
+![Top-two constructor points share by season, 2010–2025](figures/01-top-two-points-share.png)
 
-1. Click **Fork** at the top right of this page.
-2. Your copy opens under your account. It stays yours to edit.
+**Read the analysis:** [notebook on GitHub](B05-F1-Cost-Cap.ipynb) · [nbviewer](https://nbviewer.org/github/ashwinpr15/BA780-F1-Cost-Cap/blob/main/B05-F1-Cost-Cap.ipynb) · [run in Colab](https://colab.research.google.com/github/ashwinpr15/BA780-F1-Cost-Cap/blob/main/B05-F1-Cost-Cap.ipynb) · [slides (PDF)](presentation/BA780-F1-Cost-Cap-Presentation.pdf)
 
-**Run it on your computer:**
+**Team B05:** Adrian Marcell, Ashwin Pillanda Ravindra, Jenniffer Hierro Cruz and Saleha Hassan Alvi.
 
-1. Download the code: `git clone https://github.com/ashwinpr15/BA780-F1-Cost-Cap.git`
-2. Install the libraries: `pip install -r requirements.txt`
-3. Open the notebook: `jupyter notebook B05-F1-Cost-Cap.ipynb`
-4. Choose **Run → Run All Cells**.
-
-Needs internet access, because the notebook downloads the F1 data.
 ## At a glance
 
 | Measure | 2010–2020 | 2021–2025 | What it tells us |
@@ -65,8 +58,6 @@ Needs internet access, because the notebook downloads the F1 data.
 ## Key findings
 
 ### 1. The top two took a slightly smaller share, but the test is inconclusive
-
-![Top-two constructor points share by season, 2010–2025](figures/01-top-two-points-share.png)
 
 The top two constructors averaged **54.72%** of points before the cap and **52.14%** after it. The Welch test is inconclusive (**t = −1.215, p = 0.245**), and comparing against the shorter 2014–2020 baseline changes the result, so the comparison period matters.
 
@@ -150,6 +141,24 @@ The cost cap arrived in 2021, just before the biggest technical reset in decades
 | `f1db-seasons.csv` | Season lookup |
 | `f1db-races.csv` | Race IDs and season years |
 | `f1db-races-race-results.csv` | Race finishes, wins and podiums |
+
+## How to use this
+
+**Just read it:** open the notebook on GitHub, or [run it in Colab](https://colab.research.google.com/github/ashwinpr15/BA780-F1-Cost-Cap/blob/main/B05-F1-Cost-Cap.ipynb) with no install.
+
+**Copy it to your own GitHub:**
+
+1. Click **Fork** at the top right of this page.
+2. Your copy opens under your account. It stays yours to edit.
+
+**Run it on your computer:**
+
+1. Download the code: `git clone https://github.com/ashwinpr15/BA780-F1-Cost-Cap.git`
+2. Install the libraries: `pip install -r requirements.txt`
+3. Open the notebook: `jupyter notebook B05-F1-Cost-Cap.ipynb`
+4. Choose **Run → Run All Cells**.
+
+Needs internet access, because the notebook downloads the F1 data.
 
 ## Run it yourself
 
